@@ -1,0 +1,101 @@
+
+html{
+    margin: 0;
+    padding:0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.imagegroup{
+    margin: auto 15%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imagegroup>img{
+ filter: grayscale(100%);
+ 
+}
+
+.imagegroup img:nth-child(1){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0% 25%; 
+    
+}
+.imagegroup img:nth-child(2){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 25% 25%; 
+    }
+.imagegroup img:nth-child(3){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 27.5% 25%; 
+    }
+.imagegroup img:nth-child(4){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 40 25%; 
+    }
+.imagegroup img:nth-child(5){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 52.5% 25%; 
+    }
+.imagegroup img:nth-child(6){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 65% 25%; 
+    }
+.imagegroup img:nth-child(7){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 77.5% 25%; 
+    }
+.imagegroup img:nth-child(8){
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 90% 25%; 
+    }
+
+    .imagegroup>img:hover{
+        filter: none;
+        transform: scale(1.05);
+        
+        }
+
+@media only screen and (max-width: 1000px){
+
+
+    .imagegroup{
+        flex-flow: row wrap;
+        align-items: stretch;
+        
+    }
+
+}
+
